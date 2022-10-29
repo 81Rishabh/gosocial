@@ -1,0 +1,83 @@
+.upload-post-contaier {
+  width: auto;
+  height : auto;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 1.1rem;
+  padding: 0.5rem;
+  background: linear-gradient(45deg, #ffffff, #dad7ecf7);
+  border:1px solid #fff;
+}
+
+.upload-post-actions {
+    display : flex;
+    align-items: center;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+
+.upload-post-actions .icons {
+    margin: 0 .8rem;
+    font-size: 14px;
+    display :flex;
+    align-items: center;
+    justify-content:center;
+    padding: 5px;
+}
+
+.upload-post-footer {
+    display : flex;
+    justify-content: flex-end;
+    padding: .5rem;
+}
+
+
+.icons p{
+  display : flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.icons .icon{
+    font-size: 14px;
+}
+
+
+.upload-post-input-box {
+    display : flex;
+    align-items : center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+
+.upload-post-input-box img {
+    flex : .1;
+}
+
+.input-box {
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 5px; 
+    height: 40px;
+    background: #ffffff;
+    padding-left:10px;
+    flex : .9;
+    border:  1px solid rgb(232, 229, 229);
+}
+
+.input-box::placeholder {
+   font-weight: bold;
+   font-family: 'Poppins' , sans-serif;
+   font-size: 10px;
+   margin-top : 16px;
+}
+
+
+.input-box:focus {
+    outline: 1px solid rgb(112, 105, 105);
+    transition: outline .3s linear;
+}  
+
+

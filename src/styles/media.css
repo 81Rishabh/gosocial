@@ -1,0 +1,78 @@
+@media screen and (max-width: 360px) {
+    .right-container ,.left-container {
+        display : none;
+    }
+    main {
+        flex : 1
+    } 
+
+    /* header */
+    .header-search-input {
+        background-color : transparent;
+    }
+    .header-search-input input {
+        display : none;
+    }
+     
+    .header-search-input .search-icon {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-logo a{
+        font-size: 16px !important;
+    }
+    .navbar-links ul li {
+        margin: 0;
+    }
+    .navbar-links ul li .icon{
+        font-size: 1.2rem;
+    }
+
+    .navbar-links ul {
+        flex-direction: row-reverse;
+    }
+
+    /* profile page */
+    .container {
+        width : 100%;
+        margin : 0;
+    }
+
+    .container .form-control {
+        width : 100%;
+        margin: 0;
+    }
+
+    /* upload post container */
+    .upload-post-actions {
+        flex-wrap: nowrap;
+        font-size: .8rem;
+    }
+     
+    .upload-post-actions .icons {
+        margin: 0;
+    }
+
+    .upload-post-actions .icons p{
+        font-size: 10px;
+    }
+    
+    .btn-dark {
+        transform: scale(.8);
+    }
+
+    .skeleton {
+        display : none;
+    }
+
+    .post-header {
+        width : auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .left-container > .list-item  {
+        font-size: 12px !important;
+     }
+}

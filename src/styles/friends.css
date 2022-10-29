@@ -1,0 +1,85 @@
+.right-container , .left-container {
+  width : 25%;
+   margin: 1rem 0;
+   padding:0rem;
+   position: relative;
+}
+
+
+
+.card {
+    padding : 0 !important;
+    position : sticky;
+    top : 110px;
+    height: 35rem !important;
+}
+
+.right-container .card-header,
+.left-container .card-header
+ {
+   border-bottom: 1px solid whitesmoke;
+   padding-left: 1rem;
+   padding-top: .2rem;
+}
+
+.right-container .card-body ul,
+.left-container .card-body ul
+ {
+    padding : 0;
+}
+
+.right-container .card-body ul li.list-item,
+.left-container .card-body ul li.list-item
+{
+    list-style: none;
+    padding:.85rem;
+    cursor: pointer;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    color : darkgrey;
+    border-bottom:1px solid whitesmoke;
+}
+
+.left-container .card-body ul li.list-item .right {
+    display : flex;
+    align-items: center;
+}
+
+ .icon
+ {
+    font-size: 1.2rem;
+    color: #767080;
+    cursor:pointer;
+    padding : 5px;
+}
+
+.icons .add-friend {
+    font-size: 12px;
+    color: rgb(45, 6, 82);
+}
+
+.list-item:hover {
+    background-color : #fbfbfb;
+}
+
+.card-body .left {
+    display: flex;
+    align-items: center;
+}
+
+
+.user-name {
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.show {
+    display : 'block'
+}
+
+.para-skeleton {
+    margin: .5rem 0;
+    width : "100%"
+}
