@@ -1,4 +1,4 @@
-import {useState , useEffect} from 'react'
+import {useEffect} from 'react'
 import Loading from './Loading'
 import PostsLIst from './PostsLIst'
 import UploadPost from './UploadPost'

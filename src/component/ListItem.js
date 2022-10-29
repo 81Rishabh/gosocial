@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { IoIosPersonAdd } from "react-icons/io";
+
 import { BiMessageSquareDots } from "react-icons/bi";
-import { FaUserCheck, FaUserPlus } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 import { isFriend } from "../helpers/isFriend";
 import { addUserAdFriend } from "../actions/friendship";
