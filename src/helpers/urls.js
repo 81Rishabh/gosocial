@@ -1,4 +1,4 @@
-const ROOT_URL = 'http://localhost:8000/api/v1';
+const ROOT_URL = 'https://go-socialv1.herokuapp.com/api/v1';
 
 export const ApiUrl = {
     // auth
